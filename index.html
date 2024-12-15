@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Ekran Görüntüsü Aracı</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Modern Ekran Görüntüsü Aracı</h1>
+            <p>Hızlı, kolay ve modern ekran görüntüsü alma deneyimi</p>
+            <a href="#" class="download-btn">HEMEN İNDİR</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="features-container">
+            <h2 class="section-title">Özellikler</h2>
+            <p class="section-desc">Modern ve kullanıcı dostu arayüzü ile ekran görüntüsü almanın en kolay yolu.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Kolay Kullanım</h3>
+                    <p>Basit ve kullanıcı dostu arayüz ile saniyeler içinde ekran görüntüsü alın.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Hızlı Kaydetme</h3>
+                    <p>Tek tıkla istediğiniz alanın ekran görüntüsünü alın.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Modern Tasarım</h3>
+                    <p>Şık ve modern arayüz ile çalışmalarınızı kolaylaştırın.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Seçim Aracı</h3>
+                    <p>İstediğiniz alanı kolayca seçip görüntü alın.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🪶</div>
+                    <h3>Hafif Program</h3>
+                    <p>Sistemi yormayan, hızlı çalışan yapı.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h3>Ücretsiz</h3>
+                    <p>Tamamen ücretsiz ve reklamsız deneyim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="preview">
+        <h2 class="section-title">Program Önizlemesi</h2>
+        <p class="section-desc">Modern ve kullanıcı dostu arayüzümüzü keşfedin.</p>
+        <img src="images/preview.png" alt="Program Önizlemesi">
+    </section>
+
+    <section class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">İletişim & Geri Bildirim</h2>
+            <p class="section-desc">Program ile ilgili görüş, öneri ve hata bildirimlerinizi bize iletebilirsiniz.</p>
+            
+            <form action="https://formspree.io/f/xqakvkja" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Adınız</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="type">Bildirim Türü</label>
+                    <select id="type" name="type" required>
+                        <option value="">Seçiniz</option>
+                        <option value="bug">Hata Bildirimi</option>
+                        <option value="suggestion">Öneri</option>
+                        <option value="other">Diğer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesajınız</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Modern Ekran Görüntüsü Aracı. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
